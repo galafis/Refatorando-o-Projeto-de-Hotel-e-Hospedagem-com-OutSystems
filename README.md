@@ -44,4 +44,4 @@ Essa separação melhora o acoplamento e aumenta a produtividade em futuros cicl
 
 ---
 
-Feito por mim, este projeto reflete uma visão moderna sobre desenvolvimento com foco em **desempenho**, **manutenibilidade** e **experiência do usuário**. Mais do que código, aqui entregamos **valor real** para quem utilizar o sistema.
+Este projeto reflete uma visão moderna sobre desenvolvimento com foco em **desempenho**, **manutenibilidade** e **experiência do usuário**. Mais do que código, aqui entregamos **valor real** para quem utilizar o sistema.
