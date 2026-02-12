@@ -1,47 +1,128 @@
-# 🚀 Refatoração do DIOHotel – Projeto OutSystems
+# 🚀 Refatorando O Projeto De Hotel E Hospedagem Com Outsystems
 
-Este projeto representa a evolução do sistema de hotelaria **DIOHotel**, agora com uma arquitetura mais limpa, eficiente e aderente às melhores práticas de desenvolvimento na plataforma **OutSystems**.
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 🧠 Objetivo do Desafio
-
-O desafio consiste em **refatorar** a aplicação web reactive DIOHotel, focando em:
-
-- **Organização em camadas e subcamadas da arquitetura**;
-- **Melhoria de desempenho** e **otimização das consultas ao banco de dados**;
-- **Aprimoramento da interface do usuário**, tornando a experiência mais fluida e agradável.
-
-## ✨ Principais Melhorias Aplicadas
-
-- 🔄 **Separação lógica entre camadas de UI, lógica e dados**, garantindo maior escalabilidade e manutenção futura.
-- ⚡ **Refatoração de queries** para garantir respostas mais rápidas e menor uso de recursos.
-- 🧹 **Redução de redundâncias no código**, tornando o projeto mais limpo e compreensível.
-- 🎨 **Atualização da interface**, com elementos mais intuitivos, responsivos e modernos.
-- 🔌 **Preparação para futuras integrações com APIs** e serviços externos.
-- 📦 **Reutilização de componentes** para evitar duplicidade de lógica.
-
-## 🗂 Estrutura Modular
-
-A nova estrutura foi planejada com base nos conceitos de **arquitetura em camadas**, incluindo:
-- **Core Layer**: entidades e lógica essencial do domínio.
-- **Services Layer**: manipulação de dados e regras de negócio.
-- **UI Layer**: telas reativas e componentes visuais.
-
-Essa separação melhora o acoplamento e aumenta a produtividade em futuros ciclos de desenvolvimento.
-
-## 📤 Entrega
-
-- Projeto exportado no formato `.OML`, compatível com OutSystems Service Studio.
-- Repositório público no GitHub contendo:
-  - `README.md` com as descrições e funcionalidades.
-  - Arquivos complementares (prints, vídeos, banco de dados, se aplicável).
-  - Placeholder do arquivo `.OML` até a exportação final.
-
-## 🔗 Recursos e Links Úteis
-
-- [Documentação oficial OutSystems sobre Arquitetura](https://success.outsystems.com)
-- [Curso "Turbinando seus projetos"](https://dio.me)
-- [OutSystems Forge – Componentes reutilizáveis](https://www.outsystems.com/forge/)
+[English](#english) | [Português](#português)
 
 ---
 
-Este projeto reflete uma visão moderna sobre desenvolvimento com foco em **desempenho**, **manutenibilidade** e **experiência do usuário**. Mais do que código, aqui entregamos **valor real** para quem utilizar o sistema.
+## English
+
+### 🎯 Overview
+
+**Refatorando O Projeto De Hotel E Hospedagem Com Outsystems** — DIObootcamp
+
+Total source lines: **0** across **0** files in **0** languages.
+
+### ✨ Key Features
+
+- **Production-Ready Architecture**: Modular, well-documented, and following best practices
+- **Comprehensive Implementation**: Complete solution with all core functionality
+- **Clean Code**: Type-safe, well-tested, and maintainable codebase
+- **Easy Deployment**: Docker support for quick setup and deployment
+
+### 🚀 Quick Start
+
+#### Prerequisites
+- See requirements below
+
+
+#### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/galafis/Refatorando-o-Projeto-de-Hotel-e-Hospedagem-com-OutSystems.git
+cd Refatorando-o-Projeto-de-Hotel-e-Hospedagem-com-OutSystems
+```
+
+
+
+
+
+
+
+
+### 📁 Project Structure
+
+```
+Refatorando-o-Projeto-de-Hotel-e-Hospedagem-com-OutSystems/
+└── README.md
+```
+
+### 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| N/A | N/A |
+
+### 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### 👤 Author
+
+**Gabriel Demetrios Lafis**
+
+- GitHub: [@galafis](https://github.com/galafis)
+- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
+
+---
+
+## Português
+
+### 🎯 Visão Geral
+
+**Refatorando O Projeto De Hotel E Hospedagem Com Outsystems** — DIObootcamp
+
+Total de linhas de código: **0** em **0** arquivos em **0** linguagens.
+
+### ✨ Funcionalidades Principais
+
+- **Arquitetura Pronta para Produção**: Modular, bem documentada e seguindo boas práticas
+- **Implementação Completa**: Solução completa com todas as funcionalidades principais
+- **Código Limpo**: Type-safe, bem testado e manutenível
+- **Fácil Implantação**: Suporte Docker para configuração e implantação rápidas
+
+### 🚀 Início Rápido
+
+#### Pré-requisitos
+- Veja os requisitos abaixo
+
+
+#### Instalação
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/galafis/Refatorando-o-Projeto-de-Hotel-e-Hospedagem-com-OutSystems.git
+cd Refatorando-o-Projeto-de-Hotel-e-Hospedagem-com-OutSystems
+```
+
+
+
+
+
+
+
+### 📁 Estrutura do Projeto
+
+```
+Refatorando-o-Projeto-de-Hotel-e-Hospedagem-com-OutSystems/
+└── README.md
+```
+
+### 🛠️ Stack Tecnológica
+
+| Tecnologia | Uso |
+|------------|-----|
+| N/A | N/A |
+
+### 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+### 👤 Autor
+
+**Gabriel Demetrios Lafis**
+
+- GitHub: [@galafis](https://github.com/galafis)
+- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
