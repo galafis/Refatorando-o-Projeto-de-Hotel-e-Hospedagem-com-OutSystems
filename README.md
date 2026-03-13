@@ -1,173 +1,89 @@
-# 🚀 Refatorando O Projeto De Hotel E Hospedagem Com Outsystems
+# Refatorando o Projeto de Hotel e Hospedagem com OutSystems
 
-> DIObootcamp
+<div align="center">
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![OutSystems](https://img.shields.io/badge/OutSystems-FF0000?style=for-the-badge&logo=outsystems&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?logo=docker)](Dockerfile)
 
-[English](#english) | [Português](#português)
+**[PT-BR](#sobre-o-projeto) | [English](#about-the-project)**
+
+</div>
 
 ---
+
+<a name="sobre-o-projeto"></a>
+
+## Sobre o Projeto
+
+> Desafio de projeto da [DIO (Digital Innovation One)](https://www.dio.me/)
+
+Este projeto e a **refatoracao** do [sistema de hotel e hospedagem](https://github.com/galafis/Criando-um-Sistema-para-Hotel-e-Hospedagem-com-OutSystems) desenvolvido anteriormente com OutSystems. O foco esta em melhorar a arquitetura, a experiencia do usuario e a manutencao do codigo, aplicando principios de refatoracao como separacao de responsabilidades, reutilizacao de componentes e otimizacao de fluxos.
+
+---
+
+## Fluxo de Refatoracao
+
+```mermaid
+flowchart LR
+    A[Projeto\nOriginal] --> B[Analise de\nMelhorias]
+    B --> C[Refatoracao\nde Modulos]
+    C --> D[Otimizacao\nde UI/UX]
+    D --> E[Testes e\nValidacao]
+    E --> F[Projeto\nRefatorado]
+
+    style A fill:#e74c3c,color:#fff,stroke:#cb4335
+    style C fill:#FF0000,color:#fff,stroke:#cc0000
+    style F fill:#27ae60,color:#fff,stroke:#1e8449
+```
+
+---
+
+## Conteudo
+
+| Arquivo | Descricao |
+|---|---|
+| `RefatoracaoDIOHotel.oml` | Projeto OutSystems refatorado |
+| `LICENSE` | Licenca MIT |
+
+## Como Executar
+
+1. Clone este repositorio
+2. Importe o arquivo `.OML` no **OutSystems Service Studio**
+3. Compile e publique no Service Center
+4. Acesse pelo navegador
+
+## Melhorias Implementadas
+
+- Separacao de responsabilidades entre modulos
+- Reutilizacao de componentes de UI
+- Otimizacao de fluxos de navegacao
+- Melhoria na experiencia do usuario
+
+## Aplicacao na Industria
+
+A refatoracao e uma pratica essencial em desenvolvimento de software, permitindo que sistemas legados sejam modernizados sem reescrita completa, reduzindo custos e riscos.
+
+---
+
+<a name="about-the-project"></a>
 
 ## English
 
-### 🎯 Overview
+### About the Project
 
-**Refatorando O Projeto De Hotel E Hospedagem Com Outsystems** is a production-grade Unknown application that showcases modern software engineering practices including clean architecture, comprehensive testing, containerized deployment, and CI/CD readiness.
+> Project challenge from [DIO](https://www.dio.me/)
 
-The codebase comprises **0 lines** of source code organized across **0 modules**, following industry best practices for maintainability, scalability, and code quality.
-
-### ✨ Key Features
-
-- **📐 Clean Architecture**: Modular design with clear separation of concerns
-- **🧪 Test Coverage**: Unit and integration tests for reliability
-- **📚 Documentation**: Comprehensive inline documentation and examples
-- **🔧 Configuration**: Environment-based configuration management
-
-### 🏗️ Architecture
-
-```mermaid
-graph TB
-    subgraph Core["🏗️ Core"]
-        A[Main Module]
-        B[Business Logic]
-        C[Data Processing]
-    end
-    
-    subgraph Support["🔧 Support"]
-        D[Configuration]
-        E[Utilities]
-        F[Tests]
-    end
-    
-    A --> B --> C
-    D --> A
-    E --> B
-    F -.-> B
-    
-    style Core fill:#e1f5fe
-    style Support fill:#f3e5f5
-```
-
-### 🚀 Quick Start
-
-#### Prerequisites
-
-#### Installation
-
-```bash
-git clone https://github.com/galafis/Refatorando-o-Projeto-de-Hotel-e-Hospedagem-com-OutSystems.git
-cd Refatorando-o-Projeto-de-Hotel-e-Hospedagem-com-OutSystems
-```
-
-### 📁 Project Structure
-
-```
-Refatorando-o-Projeto-de-Hotel-e-Hospedagem-com-OutSystems/
-├── LICENSE
-└── README.md
-```
-
-### 🛠️ Tech Stack
-
-| Technology | Description | Role |
-|------------|-------------|------|
-
-### 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### 👤 Author
-
-**Gabriel Demetrios Lafis**
-- GitHub: [@galafis](https://github.com/galafis)
-- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
+This project is the **refactoring** of the [hotel and hospitality system](https://github.com/galafis/Criando-um-Sistema-para-Hotel-e-Hospedagem-com-OutSystems) previously developed with OutSystems. The focus is on improving architecture, user experience, and code maintainability by applying refactoring principles.
 
 ---
 
-## Português
+## Licenca | License
 
-### 🎯 Visão Geral
+Este projeto esta licenciado sob a [Licenca MIT](LICENSE). | This project is licensed under the [MIT License](LICENSE).
 
-**Refatorando O Projeto De Hotel E Hospedagem Com Outsystems** é uma aplicação Unknown de nível profissional que demonstra práticas modernas de engenharia de software, incluindo arquitetura limpa, testes abrangentes, implantação containerizada e prontidão para CI/CD.
+---
 
-A base de código compreende **0 linhas** de código-fonte organizadas em **0 módulos**, seguindo as melhores práticas do setor para manutenibilidade, escalabilidade e qualidade de código.
-
-### ✨ Funcionalidades Principais
-
-- **📐 Clean Architecture**: Modular design with clear separation of concerns
-- **🧪 Test Coverage**: Unit and integration tests for reliability
-- **📚 Documentation**: Comprehensive inline documentation and examples
-- **🔧 Configuration**: Environment-based configuration management
-
-### 🏗️ Arquitetura
-
-```mermaid
-graph TB
-    subgraph Core["🏗️ Core"]
-        A[Main Module]
-        B[Business Logic]
-        C[Data Processing]
-    end
-    
-    subgraph Support["🔧 Support"]
-        D[Configuration]
-        E[Utilities]
-        F[Tests]
-    end
-    
-    A --> B --> C
-    D --> A
-    E --> B
-    F -.-> B
-    
-    style Core fill:#e1f5fe
-    style Support fill:#f3e5f5
-```
-
-### 🚀 Início Rápido
-
-#### Prerequisites
-
-#### Installation
-
-```bash
-git clone https://github.com/galafis/Refatorando-o-Projeto-de-Hotel-e-Hospedagem-com-OutSystems.git
-cd Refatorando-o-Projeto-de-Hotel-e-Hospedagem-com-OutSystems
-```
-
-### 📁 Estrutura do Projeto
-
-```
-Refatorando-o-Projeto-de-Hotel-e-Hospedagem-com-OutSystems/
-├── LICENSE
-└── README.md
-```
-
-### 🛠️ Stack Tecnológica
-
-| Tecnologia | Descrição | Papel |
-|------------|-----------|-------|
-
-### 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
-
-### 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-### 👤 Autor
-
-**Gabriel Demetrios Lafis**
-- GitHub: [@galafis](https://github.com/galafis)
-- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
+Developed by [Gabriel Demetrios Lafis](https://github.com/galafis)
